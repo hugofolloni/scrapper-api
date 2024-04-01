@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scrapper-api", "scrapper-api.csproj", "{80787158-C98D-4457-AF80-089CB7DF95AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-args", "..\dotnet-args\dotnet-args.csproj", "{F1887A23-EC0B-4DD4-B07B-79F5B388E355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80787158-C98D-4457-AF80-089CB7DF95AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80787158-C98D-4457-AF80-089CB7DF95AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80787158-C98D-4457-AF80-089CB7DF95AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80787158-C98D-4457-AF80-089CB7DF95AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1887A23-EC0B-4DD4-B07B-79F5B388E355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1887A23-EC0B-4DD4-B07B-79F5B388E355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1887A23-EC0B-4DD4-B07B-79F5B388E355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1887A23-EC0B-4DD4-B07B-79F5B388E355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7620AAD-76A7-47DC-A6A1-C9D49A8B9A13}
+	EndGlobalSection
+EndGlobal
