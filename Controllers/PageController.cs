@@ -72,14 +72,13 @@ namespace scrapper_api.Controllers
         [HttpPost]
         public async Task<ActionResult<Page>> PostPage(Page page)
         {
-
-
             Scrapper sc = new Scrapper();
-            Page toInsert = sc.generateRandomPage(page.Name);
+            int Count = sc.getCount(page.Name, page.Word);
+            page.Count = Count;
 
-            _context.PageItems.Add(toInsert);
+            _context.PageItems.Add(page);
             await _context.SaveChangesAsync();
-            return CreatedAtAction("GetPage", new { id = page.Id }, toInsert);
+            return CreatedAtAction("GetPage", new { id = page.Id }, page);
         }
 
         // DELETE: api/Page/5
